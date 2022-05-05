@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon1"
+    tools:context=".Futbolistas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="FUTBOLISTAS"
+                android:onClick="Titulo"
+                android:textColor="#FFFFFF"
+                android:textSize="55sp" />
+
+            <EditText
+                android:id="@+id/txtWeb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese al sitio web"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#020000"
+                app:layout_constraintBottom_toTopOf="@+id/btnIr"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.378"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.252" />
+
+            <Button
+                android:id="@+id/btnIr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#32E6FD"
+                android:onClick="ButtonIR"
+                android:text="Ir"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.417"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.285" />
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                android:onClick="imageButton"
+                app:srcCompat="@drawable/m1" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                android:onClick="imageButton"
+                app:srcCompat="@drawable/m2" />
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                android:onClick="imageButton"
+                app:srcCompat="@drawable/m3" />
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                android:onClick="imageButton"
+                app:srcCompat="@drawable/m4" />
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                android:onClick="imageButton"
+                app:srcCompat="@drawable/m5" />
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                android:onClick="imageButton"
+                app:srcCompat="@drawable/m6" />
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                android:onClick="imageButton"
+                app:srcCompat="@drawable/m7" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                android:onClick="imageButton"
+                app:srcCompat="@drawable/m8" />
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                android:onClick="imageButton"
+                app:srcCompat="@drawable/m9" />
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                android:onClick="imageButton"
+                app:srcCompat="@drawable/m10" />
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                android:onClick="imageButton"
+
+                app:srcCompat="@drawable/m11" />
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                android:onClick="imageButton"
+                app:srcCompat="@drawable/m12" />
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                android:onClick="imageButton"
+                app:srcCompat="@drawable/m13" />
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                android:onClick="imageButton"
+                app:srcCompat="@drawable/m14" />
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                android:onClick="imageButton"
+                app:srcCompat="@drawable/m15" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

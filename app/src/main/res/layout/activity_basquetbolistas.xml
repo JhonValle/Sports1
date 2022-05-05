@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon3"
+    tools:context=".Basquetbolistas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="BASQUETBOLISTAS"
+                android:textColor="#FFFFFF"
+                android:textSize="42sp" />
+
+            <ImageButton
+                android:id="@+id/img1"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                android:onClick="img"
+                app:srcCompat="@drawable/z1" />
+
+            <ImageButton
+                android:id="@+id/img2"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                app:srcCompat="@drawable/z2" />
+            <ImageButton
+                android:id="@+id/img3"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                app:srcCompat="@drawable/z3" />
+            <ImageButton
+                android:id="@+id/img4"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                app:srcCompat="@drawable/z4" />
+            <ImageButton
+                android:id="@+id/img5"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                app:srcCompat="@drawable/z5" />
+            <ImageButton
+                android:id="@+id/img6"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                app:srcCompat="@drawable/z6" />
+            <ImageButton
+                android:id="@+id/img7"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                app:srcCompat="@drawable/z7" />
+
+            <ImageButton
+                android:id="@+id/img8"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                app:srcCompat="@drawable/z8" />
+            <ImageButton
+                android:id="@+id/img9"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                app:srcCompat="@drawable/z9" />
+            <ImageButton
+                android:id="@+id/img10"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                app:srcCompat="@drawable/z10" />
+            <ImageButton
+                android:id="@+id/img11"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                app:srcCompat="@drawable/z11" />
+            <ImageButton
+                android:id="@+id/img12"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                app:srcCompat="@drawable/z12" />
+            <ImageButton
+                android:id="@+id/img13"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                app:srcCompat="@drawable/z13" />
+            <ImageButton
+                android:id="@+id/img14"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                app:srcCompat="@drawable/z14" />
+            <ImageButton
+                android:id="@+id/img15"
+                android:layout_width="312dp"
+                android:layout_height="305dp"
+                app:srcCompat="@drawable/z15" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

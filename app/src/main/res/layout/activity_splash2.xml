@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    tools:context=".Splash2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnFutbol"
+            android:layout_width="255dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="#E91E63"
+            android:fontFamily="cursive"
+            android:foregroundGravity="top"
+            android:text="Futbol"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="38sp" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="299dp"
+            android:layout_height="400dp"
+            android:layout_weight="1"
+            android:background="@drawable/ae" />
+
+
+        <TextView
+            android:id="@+id/txtV2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Cada derrota es una victoria en sí misma."
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
